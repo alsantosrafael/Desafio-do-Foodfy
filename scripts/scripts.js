@@ -11,25 +11,36 @@ for (let card of cards) {
         const dish = card.querySelector(".dish-author").textContent
         const h2Modal = document.createElement("h2")
         const pModal = document.createElement("p")
-
+        const closeModal = document.createElement("h6")
+        
+        
         h2Modal.innerText = name
         pModal.innerHTML = dish
-
-
+        closeModal.innerHTML = "fechar"
+        
+        
         modalContent.appendChild(h2Modal)
         modalContent.appendChild(pModal)
+        modalContent.appendChild(closeModal)
 
-        modalOverlay.classList.add("active")
+        document.querySelector("h6").setAttribute("class", "fechaModal")
         
-
+        modalOverlay.classList.add("active")
+    
+       
+        
+        
         //Pegando imagem
         modalContent.querySelector("img").src = `/layouts/assets/${imgId}.png`
         
+
         /*Removendo a classe active e portanto escondendo o modal*/
-        document.querySelector(".close-modal").addEventListener("click", function(){
+        document.querySelector(".fechaModal").addEventListener("click", function(){
             modalOverlay.classList.remove("active")
             modalContent.removeChild(h2Modal)
             modalContent.removeChild(pModal)
+            modalContent.removeChild(closeModal)
+            
         })
     })
 
