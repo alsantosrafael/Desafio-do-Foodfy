@@ -15,42 +15,33 @@
 
 body {
     
-    max-width: 1400px;
-    max-height: 1120px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+   
 }
 
 /*Menu*/
 
 header {
 
-    display: flex;
-    /* justify-content: cenQter; */
-    margin-left: 230px;
-    
-    margin-top: 38px;
-    margin-bottom: 36px;
-
-    align-items: center;
+    width: 940px; /*Setando tamanhdo do meu header*/
+    display: flex;/*Display flex para eu colocar os filhos como eu quiser*/
+    align-items: center;/*Centralizando conteúdo no eixo X*/
+  
+    margin: 0 auto;/*Centralizando caixa em relação à página*/
+    margin-bottom: 30px;/*Espaçamento para a próxima caixa*/
     
 }
 
 .logo {
+    margin-top: 36px;
     margin-right: 123px;
-
 }
 
-
 .menu {
-    display: flex;
-    
-    
-    
+    margin-top: 38px;
+    display: flex; /*Colocando elementos da minha lista lado a lado*/
+       
 }
 .menu li {
     margin-left: 30px;
@@ -71,19 +62,19 @@ header {
 /*Caixa com a figura do chefe*/
 
 .chef-box {
+
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     
-    
-    position: relative;
+
     max-width: 940px;
-    height: 366px;
-    
-    
+
+    margin: 0 auto;
     
     background-color: #FBDFDB;
     border-radius: 30px;
-    margin-left: 230px; 
-    align-items: center;
+
 }
 
 .texts {
@@ -115,23 +106,23 @@ header {
 }
 
 .chef-box img {
-    position: absolute;
+  
     width: 216px;
     height: 300px;
-    margin-top: 34px;
-    margin-left: 624px;
-    
+    margin: 66px 100px 0 0;
     
 }
 /*Mais acessados*/
 .accessed {
 
-    margin-left: 230px; 
-    margin-top: 50px;
-    margin-bottom: 20px;
+    width: 940px;
+    margin: 0 auto;
     
     font-size: 24px;
     line-height: 28px;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
     
 }
 
@@ -143,8 +134,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     max-width: 940px;
-    margin-left: 230px; 
-    
+    margin: 0 auto;    
     
 }
 
@@ -170,15 +160,15 @@ header {
     color: #777777;
 }
 
-/*Rodap-pé*/
+/*Rodapé*/
 
 footer {
-    
-    margin-top: 60px;
+    width: 62px;
+    margin-top: 50px;
     
     bottom: 0;
     width: 100%;
-    background-color:  #EEEEEE;
+    background-color: #EEEEEE;
     
     text-align: center;
 }
@@ -203,24 +193,22 @@ footer p {
 
     margin-bottom: 50px;
 
-    
 }
+
 .wrapper {
-    
     
     max-width: 940px;
     margin: 0 auto;
     
-    
 }
 .wrapper h2 {
-    font-family: Roboto-Bold;
+
+    font-family: "Roboto-Bold", sans-serif;
     font-size: 24px;
     line-height: 28px;
     color: #111111;
     margin-bottom: 20px;
     
-
 }
 
 .wrapper p {
@@ -309,7 +297,6 @@ footer p {
 
 }
 
-
 .modal-content {
     border-top: 30px;
 
@@ -317,7 +304,7 @@ footer p {
 
 
 }
-
+/*Alterando imagem que aparece no modal*/
 .modal-content img {
     
     width: 600px;
@@ -327,7 +314,7 @@ footer p {
     border-radius: 15px;
 }
 
-
+/*Mexendo no nome do prato*/
 .modal-content h2 {
 
     font-family: Roboto-Regular;
@@ -336,6 +323,7 @@ footer p {
     text-align: center;;
 }
 
+/*Mexendo no nome do autor do prato*/
 .modal-content p {
     font-family: Roboto-Regular;
     font-size: 18px;
@@ -345,6 +333,7 @@ footer p {
     margin-top: 10px;
 }
 
+/*Mexendo no nosso modal*/
 .modal-content .fechaModal {
 
     font-family: Roboto-Regular;
