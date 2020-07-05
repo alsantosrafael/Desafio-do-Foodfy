@@ -1,0 +1,227 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+body {
+    
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+body {
+    
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+   
+}
+
+/*Menu*/
+
+header {
+
+    width: 940px; /*Setando tamanhdo do meu header*/
+    display: flex;/*Display flex para eu colocar os filhos como eu quiser*/
+    align-items: center;/*Centralizando conteúdo no eixo X*/
+  
+    margin: 0 auto;/*Centralizando caixa em relação à página*/
+    margin-bottom: 30px;/*Espaçamento para a próxima caixa*/
+    
+}
+
+.logo {
+    margin-top: 36px;
+    margin-right: 123px;
+}
+
+.menu {
+    margin-top: 38px;
+    display: flex; /*Colocando elementos da minha lista lado a lado*/
+       
+}
+.menu li {
+    margin-left: 30px;
+
+}
+.menu li a {
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 19px;
+}
+
+.menu li a:hover {
+
+    color: chocolate;
+    transition: 400ms;
+}
+
+
+/*Criando página da receita única*/
+
+.card {
+    
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.img-container {
+    width: 940px;
+    height: 280px;
+    margin-bottom: 50px;
+}
+
+.dish-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 42px;
+
+    margin: 0 auto;
+
+}
+
+.dish-name p{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #111111;
+}
+
+.author {
+  
+    text-align: center;
+
+
+    width: 100%;
+    height: 42px;
+
+    margin: 0 auto;
+}
+
+.author p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    opacity: 0.7;
+    margin-top: 4px;
+    
+}
+
+/*Ingredients*/
+
+.ingredients {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+
+.ingredients h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+
+    margin-bottom: 20px;
+}
+.ingredients li {
+    list-style: inside;
+
+
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+/*Preparation*/
+
+.prep {
+
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 39px;
+
+}
+
+
+.prep h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+
+    margin-bottom: 20px;
+}
+.prep li {
+    list-style: inside;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+/*Preparation*/
+
+.info   {
+
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 39px;
+
+}
+
+
+.info h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+
+    margin-bottom: 20px;
+}
+
+.info p {
+
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+/*Mostrar/Esconder*/
+
+.showhide-cont.active{
+    visibility: hidden;
+  }
+  
+button{
+    font-size: 12px;
+    font-weight: bold;
+    color: #999999;
+  }
+  

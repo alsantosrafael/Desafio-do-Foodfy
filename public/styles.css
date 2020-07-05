@@ -1,0 +1,351 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+/*Removing presets of the browser and setting up some details*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+body {
+    
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    
+    
+   
+}
+
+/*Menu*/
+
+header {
+
+    width: 940px; /*Setando tamanhdo do meu header*/
+    display: flex;/*Display flex para eu colocar os filhos como eu quiser*/
+    align-items: center;/*Centralizando conteúdo no eixo X*/
+  
+    margin: 0 auto;/*Centralizando caixa em relação à página*/
+    margin-bottom: 30px;/*Espaçamento para a próxima caixa*/
+    
+}
+
+.logo {
+    margin-top: 36px;
+    margin-right: 123px;
+}
+
+.menu {
+    margin-top: 38px;
+    display: flex; /*Colocando elementos da minha lista lado a lado*/
+       
+}
+.menu li {
+    margin-left: 30px;
+
+}
+.menu li a {
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 19px;
+}
+
+.menu li a:hover {
+
+    color: chocolate;
+    transition: 400ms;
+}
+
+/*Caixa com a figura do chefe*/
+
+.chef-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    max-width: 940px;
+
+    margin: 0 auto;
+    
+    background-color: #FBDFDB;
+    border-radius: 30px;
+
+}
+
+.texts {
+    
+    display: flex;
+    flex-direction: column;  
+
+    margin-left: 60px;
+    margin-right: 250px;
+
+}
+
+.texts h1 {
+    width: 305px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 0.9%;
+ 
+}
+
+.texts h4 {
+    width: 310px;
+    opacity: 0.7;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+}
+
+.chef-box img {
+  
+    width: 216px;
+    height: 300px;
+    margin: 66px 100px 0 0;
+    
+}
+/*Mais acessados*/
+.accessed {
+
+    width: 940px;
+    margin: 0 auto;
+    
+    font-size: 24px;
+    line-height: 28px;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+/*Cards dos pratos mais acessados*/
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 940px;
+    margin: 0 auto;
+    cursor: pointer;     
+    
+}
+
+
+.img-container img {
+    border-radius: 15px;
+    width: 100%;
+    display: block;
+}
+
+.dish-name p {
+    
+    font-size: 18px;
+    line-height: 21px;
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+.dish-author p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+}
+
+/*Rodapé*/
+
+footer {
+    
+    width: 62px;
+    margin-top: 50px;
+    
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #EEEEEE;
+    
+    text-align: center;
+}
+
+footer p {
+    
+    opacity: 0.7;
+    padding: 23px 0;
+}
+
+/*Página Sobre*/
+
+#about {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+#about header {
+
+    margin-bottom: 50px;
+
+}
+
+.wrapper {
+    
+    max-width: 940px;
+    margin: 0 auto;
+    
+}
+.wrapper h2 {
+
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+    margin-bottom: 20px;
+    
+}
+
+.wrapper p {
+
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+.wrapper h3 {
+    font-size: 20px;
+    line-height: 24px;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*Pagina de receitas*/
+
+
+#recipe .img-container {
+
+    cursor: pointer;
+}
+
+/****** MODAL OVERLAY*****/
+
+.modal-overlay {
+    /*Centralizando modal em relação a altura*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    /*Acima está a estratégia de centralização*/    
+    /*Abaixo a estratégia para encobrir a tela toda com o modal overlay*/
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height:100%;
+    position: fixed;
+    top:0;
+
+    /*Escondendo o modal para ser controlado com javascript*/
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.modal {
+    background-color: white;
+
+    width: 660px;
+    height: 415px;
+    margin: 0 auto; /*Centralizando no eixo X*/
+
+    border-radius: 16px;
+
+    position: relative;/*Colocando o fechar modal restrito a caixa*/
+}
+
+/* .modal .close-modal {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #999999;
+
+    position: absolute;
+    
+    bottom: 0;
+    left: 45%;
+    top: 80%;
+
+    cursor: pointer;
+
+} */
+
+
+/******Modal Ativo******/
+
+.modal-overlay.active {
+
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.modal-content {
+    border-top: 30px;
+
+    text-align: center;
+
+
+}
+/*Alterando imagem que aparece no modal*/
+.modal-content img {
+    
+    width: 600px;
+    height: 200px;
+    margin-top: 30px;
+
+    border-radius: 15px;
+
+}
+
+/*Mexendo no nome do prato*/
+.modal-content h2 {
+
+    font-family: Roboto-Regular;
+    font-size: 24px;
+    color: #111111;
+    text-align: center;;
+}
+
+/*Mexendo no nome do autor do prato*/
+.modal-content p {
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #777777;
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+/*Mexendo no nosso modal*/
+.modal-content .fechaModal {
+
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #999999;
+
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+

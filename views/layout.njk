@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/2917/2917633.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+
+    {% block head %}
+        <title>Foodfy</title>
+        <link rel="stylesheet" href="/styles.css">
+    {% endblock head %}
+
+</head>
+<body>
+    
+
+    <header class="header">
+
+        <a href="/" class="logo">
+            <img src="/assets/logo.png" alt="logo foodfy">
+        </a>
+        <ul class="menu">
+            <li><a href="/sobre">Sobre</a></li>
+            <li><a href="/receitas">Receitas</a></li>
+        </ul>
+        
+    </header>
+
+
+    {% block content %} {% endblock content %}
+    
+    <footer>
+        <p>Todos os direitos reservados, receitas Foodfy. </p>
+    </footer>
+    
+</body>
+</html>
