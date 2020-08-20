@@ -1,2 +1,50 @@
-# Desafio-do-Foodfy
+# 
 Desafio Foodfy - Launchbase Bootcamp - Rcoketseat
+# Desafio-do-Foodfy - Launchbase Bootcamp - Rocketseat
+## Desenvolvimento de um Website de receitas de culinária
+Durante o bootcamp da Rocketseat,somos desafiados a construir um site utilizando os fundamentos aprendidos durante os módulos. Inicialmente, à partir de um projeto no Figma devemos desenvolver todo o Frontend do projeto. Em seguida, somos desafiados a refatorar o projeto e inserir o Backend. Para o frontend utilizou-se os fundamentos de Flexbox e Grid, manipulação da DOM, dentre outros. Em Backend, por sua vez, criamos o servidor e suas rotas (usando Express e Nodemon), criamos bibliotecas com objetos contendo informações das receitas e lançamos mão das Template Engines (Nunjucks) para otimizar os códigos.
+
+## Tabela de Conteúdos
+---
+<p align="center">
+ <a href="#demo">Demonstração</a> •
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#autor">Autor</a>
+</p>
+
+### Status do Projeto:
+---
+<h4> 
+	 🚧🚨 Foodfy em Construção :white_check_mark: 🚀🚧
+</h4> <br>
+
+### Demonstração
+---
+![Flexblog Demo](https://github.com/alsantosrafael/Curso-Origamid---Flexbox/blob/master/demo_flexblog-min.gif)
+
+
+### Tecnologias e Dependências
+---
+<ul>
+	<li>HTML;</li>
+	<li>CSS;</li>
+  <li>JS e NodeJS;</li>
+  <li>Nunjucks;</li>
+  <li>Nodemon</li>
+  <li>Express</li>
+</ul>
+
+
+### Autor
+---
+
+<a href="https://github.com/alsantosrafael/">
+ <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/60659321?s=460&u=f7b85d61e01a491287fce14c7e9bc0ee74475cc8&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Rafael Almeida</b></sub></a> <a href="https://github.com/alsantosrafael" title="Github">🚀</a>
+
+
+Feito com ❤️ por Rafael Almeida 👋🏽 Entre em contato!
+
+ [![Linkedin Badge](https://img.shields.io/badge/-Rafael-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rafaalms/)](https://www.linkedin.com/in/rafaalms/) 
+[![Gmail Badge](https://img.shields.io/badge/-rafael.profeng@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rafael.profeng@gmail.com)](mailto:rafael.profeng@gmail.com)
