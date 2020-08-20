@@ -32,7 +32,7 @@ Durante o bootcamp da Rocketseat,somos desafiados a construir um site utilizando
 <ul>
   <li>HTML;</li>
   <li>CSS;</li>
-  <li>JS e NodeJS;</li>
+  <li>JavaScript e NodeJS;</li>
   <li>Nunjucks;</li>
   <li>Nodemon;</li>
   <li>Express.</li>
