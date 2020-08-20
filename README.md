@@ -17,7 +17,7 @@ Durante o bootcamp da Rocketseat,somos desafiados a construir um site utilizando
 
 ### Demonstração
 ---
-![Flexblog Demo](https://github.com/alsantosrafael/Curso-Origamid---Flexbox/blob/master/demo_flexblog-min.gif)
+![Foodfy Demo](https://github.com/alsantosrafael/Desafio-do-Foodfy/blob/master/demo_foodfy.gif)
 
 
 ### Tecnologias e Dependências
