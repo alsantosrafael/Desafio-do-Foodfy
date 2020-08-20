@@ -12,7 +12,7 @@ Durante o bootcamp da Rocketseat,somos desafiados a construir um site utilizando
 ### Status do Projeto:
 ---
 <h4> 
-	 🚧🚨 Foodfy em Construção :white_check_mark: 🚀🚧
+	🚧🚨 Foodfy em Construção... 🚀🚧
 </h4> <br>
 
 ### Demonstração
