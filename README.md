@@ -3,7 +3,6 @@
 Durante o bootcamp da Rocketseat,somos desafiados a construir um site utilizando os fundamentos aprendidos durante os módulos. Inicialmente, à partir de um projeto no Figma devemos desenvolver todo o Frontend do projeto. Em seguida, somos desafiados a refatorar o projeto e inserir o Backend. Para o frontend utilizou-se os fundamentos de Flexbox e Grid, manipulação da DOM, dentre outros. Em Backend, por sua vez, criamos o servidor e suas rotas (usando Express e Nodemon), criamos bibliotecas com objetos contendo informações das receitas e lançamos mão das Template Engines (Nunjucks) para otimizar os códigos.
 
 ## Tabela de Conteúdos
----
 <p align="center">
  <a href="#demo">Demonstração</a> •
  <a href="#tecnologias">Tecnologias e Dependências</a> • 
@@ -11,18 +10,15 @@ Durante o bootcamp da Rocketseat,somos desafiados a construir um site utilizando
 </p>
 
 ### Status do Projeto:
----
 <h4> 
 	 🚧🚨 Foodfy em Construção :white_check_mark: 🚀🚧
 </h4> <br>
 
 ### Demonstração
----
 ![Flexblog Demo](https://github.com/alsantosrafael/Curso-Origamid---Flexbox/blob/master/demo_flexblog-min.gif)
 
 
 ### Tecnologias e Dependências
----
 <ul>
   <li>HTML;</li>
   <li>CSS;</li>
