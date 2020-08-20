@@ -5,6 +5,7 @@ Durante o bootcamp da Rocketseat,somos desafiados a construir um site utilizando
 ## Tabela de Conteúdos
 <p align="center">
  <a href="#demo">Demonstração</a> •
+ <a href="#uso">Instruções de uso</a> •
  <a href="#tecnologias">Tecnologias e Dependências</a> • 
  <a href="#autor">Autor</a>
 </p>
@@ -19,6 +20,12 @@ Durante o bootcamp da Rocketseat,somos desafiados a construir um site utilizando
 ---
 ![Foodfy Demo](https://github.com/alsantosrafael/Desafio-do-Foodfy/blob/master/demo_foodfy.gif)
 
+### Instruções de uso
+1. Clone o repositorio de link https://github.com/alsantosrafael/Desafio-do-Foodfy
+2. Abra a pasta do repositório clonado no VSCode
+3. Abra o seu terminal e execute o comando ``` npm start```
+4. Abra uma página do seu navegador favorito e digite http://localhost:5000/
+5. Divirta-se!
 
 ### Tecnologias e Dependências
 ---
