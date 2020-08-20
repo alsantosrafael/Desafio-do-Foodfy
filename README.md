@@ -10,15 +10,18 @@ Durante o bootcamp da Rocketseat,somos desafiados a construir um site utilizando
 </p>
 
 ### Status do Projeto:
+---
 <h4> 
 	 🚧🚨 Foodfy em Construção :white_check_mark: 🚀🚧
 </h4> <br>
 
 ### Demonstração
+---
 ![Flexblog Demo](https://github.com/alsantosrafael/Curso-Origamid---Flexbox/blob/master/demo_flexblog-min.gif)
 
 
 ### Tecnologias e Dependências
+---
 <ul>
   <li>HTML;</li>
   <li>CSS;</li>
